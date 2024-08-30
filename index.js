@@ -20,7 +20,7 @@ let createCard = (title, cName, views, upldDate, dur, thumb) => {
 };
 var c = 1;
 document.querySelector("button").addEventListener("click", () => {
-  if(c&&c<3)
+  if(c&&c<3){
    createCard(
     "Ariana Grande - We Can't Be Friends -「AMV」- Anime MV",
     "Anime Amv Sensei",
@@ -28,7 +28,9 @@ document.querySelector("button").addEventListener("click", () => {
     24,
     "2:56",
     "https://i.ytimg.com/vi/x299KHmCeT0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCsBypwYb8ZM0JC5ml014gv40JvBQ"
-  );
+  )
+  c++;
+}
 });
 
 let p = ()=>{
