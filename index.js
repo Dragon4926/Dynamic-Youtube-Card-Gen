@@ -9,7 +9,7 @@ let createCard = (title, cName, views, upldDate, dur, thumb) => {
   let html = `<div class="card">
                 <div class="image">
                     <img src="${thumb}" onclick="p()" alt="Thumbnail image" style="cursor: pointer;">
-                    <div class="capsule">${dur}</div>
+                    <div class="dur">${dur}</div>
                 </div>
                 <div class="text">
                     <h1>${title}</h1>
